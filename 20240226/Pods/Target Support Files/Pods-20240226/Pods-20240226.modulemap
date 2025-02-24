@@ -1,0 +1,6 @@
+framework module Pods_20240226 {
+  umbrella header "Pods-20240226-umbrella.h"
+
+  export *
+  module * { export * }
+}
