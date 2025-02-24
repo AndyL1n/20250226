@@ -7,6 +7,11 @@
 
 import Foundation
 
+enum SectionType {
+    case chat
+    case book
+}
+
 struct ChatRoomModel: Codable {
     /// 用來判斷回傳回來的訊息是新的還是舊的
     let receiveType: ReceiveType
@@ -17,7 +22,7 @@ struct ChatRoomModel: Codable {
 
 
 /// 聊天室訊息 Model
-struct MessageModel: Codable {
+struct MessageModel: Codable, Hashable {
     
     let content: String
     let author: String
