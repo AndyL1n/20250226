@@ -65,15 +65,11 @@
 		};
 		A1D954DC2D6C37DB002CEC10 /* 20240226Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = 20240226Tests;
 			sourceTree = "<group>";
 		};
 		A1D954E62D6C37DB002CEC10 /* 20240226UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = 20240226UITests;
 			sourceTree = "<group>";
 		};
@@ -117,7 +113,6 @@
 				29EC48DDCEF814AD79BB27D0 /* Pods-20240226Tests.debug.xcconfig */,
 				74C5B5253A9787B6847AD923 /* Pods-20240226Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,6 +159,7 @@
 				A1D954BF2D6C37D9002CEC10 /* Sources */,
 				A1D954C02D6C37D9002CEC10 /* Frameworks */,
 				A1D954C12D6C37D9002CEC10 /* Resources */,
+				034DF983ABA0D4D59A5E38C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +203,7 @@
 				A1D954DF2D6C37DB002CEC10 /* Sources */,
 				A1D954E02D6C37DB002CEC10 /* Frameworks */,
 				A1D954E12D6C37DB002CEC10 /* Resources */,
+				99E87575715675CBDDF4BF29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +287,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		034DF983ABA0D4D59A5E38C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20240226/Pods-20240226-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20240226/Pods-20240226-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20240226/Pods-20240226-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E87575715675CBDDF4BF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20240226-20240226UITests/Pods-20240226-20240226UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20240226-20240226UITests/Pods-20240226-20240226UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20240226-20240226UITests/Pods-20240226-20240226UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B3FAD380E400034E793EC030 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z585FJDW96;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 20240226/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -434,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z585FJDW96;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 20240226/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

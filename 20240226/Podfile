@@ -4,16 +4,25 @@
 target '20240226' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
+  pod 'RxSwift', '6.9.0'
+  pod 'RxCocoa', '6.9.0'
+  
   # Pods for 20240226
 
   target '20240226Tests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxSwift', '6.9.0'
+    pod 'RxCocoa', '6.9.0'
+
   end
 
   target '20240226UITests' do
     # Pods for testing
+    pod 'RxSwift', '6.9.0'
+    pod 'RxCocoa', '6.9.0'
+
   end
 
 end
